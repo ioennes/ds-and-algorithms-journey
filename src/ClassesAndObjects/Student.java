@@ -1,4 +1,4 @@
-package main;
+package ClassesAndObjects;
 
 // This code shows us how to create the class student, the parent class
 // of GradStudent and a class that is used in Registrar.
@@ -19,6 +19,12 @@ public class Student {
         this.name = name;
         this.id = id;
         this.gpa = gpa;
+    }
+
+    public Student() {
+        this.name = null;
+        this.id = null;
+        this.gpa = 0.0F;
     }
 
     // A major pillar of OOP is encapsulation, this is represented by
@@ -48,5 +54,11 @@ public class Student {
     }
     public float getGpa() {
         return gpa;
+    }
+
+    // toString
+
+    public String toString() {
+        return name + " " + id + " " + gpa;
     }
 }
