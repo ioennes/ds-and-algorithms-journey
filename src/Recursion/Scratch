@@ -1,0 +1,28 @@
+Given a string and a non-empty substring, compute recursively
+the largest substring which starts and ends with the sub and
+returns its length.
+
+func("catcatcowcat", "cow")     ->      3
+            ___
+func("cowcatcowcat", "cat")     ->      9
+         _________
+
+Given a string that contains a single pair of
+parenthesis, compute a recursively a new string
+made only of the parenthesis and their content
+
+Define a class LinkedList that implements DataStructure and
+allows to store instances of class Person. The linkedlist class
+must implement the following behavior: add, find, and count occurences.
+Recursively, do the following: add, find, countOccurences, 
+max age
+
+partition:
+
+{1, 2, 3, 4} partition into 3: {1, 2} u {3} u {4}
+{1, 2, 3, 4} partition into 2: {1, 2} u {3, 4}
+
+permute:
+
+abc     ->      abc, acb, bac, bca, cab, cba
+abcd    ->      abcd, acbd, acdb, 
